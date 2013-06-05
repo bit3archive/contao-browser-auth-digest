@@ -1,0 +1,26 @@
+{
+	"name": "bit3/contao-browser-auth-digest",
+	"type": "contao-module",
+	"require": {
+		"php": ">=5.3",
+		"bit3/contao-browser-auth": "~1"
+	},
+	"suggest": {
+		"bit3/contao-browser-auth-digest": "Digest auth mechanism."
+	},
+	"autoload": {
+		"psr-0": {
+			"Contao\\Auth": "src/"
+		}
+	},
+	"extra": {
+		"contao": {
+			"symlinks": {
+				"contao": "system/modules/browser-auth-digest"
+			}
+		},
+		"branch-alias": {
+			"dev-master": "1.x-dev"
+		}
+	}
+}
